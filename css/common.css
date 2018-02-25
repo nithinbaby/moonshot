@@ -88,5 +88,5 @@ svg {
   z-index: 10000;
   width: 100%;
   height: 100%;
-  background-color: #00000094;
+  background-color: rgba(3, 3, 35, 0.45);
 }
