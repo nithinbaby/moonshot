@@ -1,0 +1,15 @@
+<div ng-include = "'partials/header.htm'"></div>
+
+<!-- <div class="tile-cnt">
+  <div class="tile-img-cnt">
+    <img ng-src="{{icon}}" err-src="{{missingIcon}}"/>
+  </div>
+  <div class="truncate">{{name}}</div>
+</div> -->
+<div class="home-container padding-5px">
+	<div class="container-fluid" infinite-scroll="loadNextPage()" infinite-scroll-distance="1">
+		<div ng-repeat="item in searchResults" class="">
+      {{item}}
+    </div>
+  </div>
+</div>

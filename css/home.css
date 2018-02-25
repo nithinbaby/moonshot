@@ -1,0 +1,74 @@
+movie-tile{
+
+}
+.tile-cnt img{
+  width: 100%;
+}
+.padding-5px{
+  padding: 5px;
+}
+.home-container{
+  padding-top: 89px;
+}
+.search-form{
+  margin-top: 25px;
+}
+.from-img{
+  width: 100%;
+  max-width: 36px;
+  margin-top: 16px;
+}
+
+.date-label{
+  margin-bottom: 10px;
+}
+
+.traveller-class-cnt{
+  width: 100%;
+}
+
+.full-width-btn{
+  width: 100%;
+  background-color: #3D5AFE!important;
+  padding: 10px 0!important;
+  border-radius: 5px;
+
+}
+
+.full-width-btn>span{
+  font-weight: bold;
+}
+.secondary-btn{
+  background-color: #D8E2FF!important;
+}
+.secondary-btn>span{
+  color: #333;
+}
+
+.travelcount-cnt>.row>.col-xs-2{
+  padding: 0px;
+}
+.plusminus-img{
+  width: 35px;
+}
+.link-btn{
+  float: right;
+}
+.link-btn span{
+  font-weight: bold;
+}
+
+.trvl-count{
+  margin-top: 10px;
+  display: block;
+}
+.bgwhite{
+  background-color: #fff !important;
+}
+md-tab-item>span{
+  font-weight: bold;
+}
+md-ink-bar{
+  color: rgb(62, 89, 254)!important;
+  background: rgb(62, 89, 254)!important;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+body{
+  /*background: #171717;
+  color: white!important;
+  max-width: 768px;
+  margin: 0 auto;*/
+  /*padding: 0 5px;*/
+  /*background-image: linear-gradient(-180deg,#124682,#091b3c);*/
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.min-width350{
+  min-width: 350px;
+}
+
+.width100{
+  width: 100%;
+}
+
+body, header{
+  max-width: 500px;
+  margin: 0 auto !important;
+}
+
+.date-picker{
+  margin-left: -15px;
+}
+
+.width12{
+  width: 12%;
+}
+.width78paddingleft0{
+  width: 78%;
+  padding-left: 0;
+}
+.width38paddingleft0{
+  width: 38%;
+  padding-left: 0;
+}
+.width40{
+  width: 40%;
+}
+.margintop15{
+  margin-top: 15px;
+}
+.margintop25{
+  margin-top: 25px;
+}
+.margintop30{
+  margin-top: 30px;
+}
+.close-dialog {
+  position: absolute!important;
+  right: 0;
+  top: 10px;
+  padding: 0px!important;
+  width: 15px;
+  min-width: 35px!important;
+  border-radius: 50%!important;
+  font-weight: bolder!important;
+}
+.mobile-bar{
+  height: 25px;
+  width: 100%;
+  background-color: rgba(0, 39, 206, 1);
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  /*visibility: hidden;*/
+  visibility: visible;
+}
+
+.loader{
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background-color: #00000094;
+}
