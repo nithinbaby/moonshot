@@ -46,14 +46,14 @@ app.controller('HomeController', function($scope, $http, $timeout,  $location, $
     }
     $rootScope.showLoader = true;
     $timeout(function() {
-        if(day<65) {
+        if(day<90) {
         // if ($scope.travellerClass == "Economy Class") {
           //Business Traveller
           $rootScope.searchResults = [
             'a', 'b', 'c'
           ];
           window.open("Flyto/business_traveller_usecase.html","_self");
-        } else if(day>=65) {
+        } else {
           if ($scope.childCount>0 || $scope.infantCount>0) {
             //family leisure
             window.open("Flyto/family_travellers_usecase.html","_self");
